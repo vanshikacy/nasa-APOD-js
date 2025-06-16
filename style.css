@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 30px; /* Creates perfect spacing */
+    margin-bottom: 30px; 
     font-size: 24px;
     color: rgb(246, 222, 4);
     text-shadow: 0 0 8px rgba(246, 222, 4, 0.8);
@@ -22,21 +22,21 @@ h1 {
 
 .Image-container-wrapper {
     display: flex;
-    flex-direction: row; /* Keeps image and text side by side */
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px; /* Adds space between image and explanation */
+    gap: 30px; 
 }
 
 .Image-container {
     position: relative;
-    width: 500px; /* Adjust as needed */
-    height: auto; /* Adjust dynamically */
-    margin-right: 20px; /* Space between image and explanation */
+    width: 500px;
+    height: auto; 
+    margin-right: 20px;
     
     display: flex; 
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center-align everything */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
 }
 
@@ -59,12 +59,12 @@ h1 {
     backdrop-filter: blur(5px);
     font-size: 16px;
 
-    /* Remove these */
+    
     position: unset; 
     bottom: unset;
     left: unset;
     transform: unset;
-    margin-top: 10px; /* Add spacing instead */
+    margin-top: 10px; 
     
 }
 
@@ -79,23 +79,23 @@ h1 {
     padding: 10px;
     max-height: 90vh;
     max-width: 65vw;
-    overflow-y: auto; /* Makes sure long explanations are scrollable */
+    overflow-y: auto; 
 }
 
 .Image-container, .Explanation {
-    margin: 20px; /* Centers elements better */
+    margin: 20px; 
 }
 
-/* Wrap buttons together */
+
 .button-container {
     display: flex;
-    justify-content: center; /* Aligns buttons next to each other */
+    justify-content: center; 
     align-items: center;
-    gap: 15px; /* Space between buttons */
+    gap: 15px; 
     margin-top: 10px;
 }
 
-/* Keep Random Button Styling */
+
 #randomBtn {
     background-color: rgb(246, 222, 4);
     color: black;
