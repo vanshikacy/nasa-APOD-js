@@ -1,15 +1,4 @@
-// async function getData(url){
-//     const response= await fetch(url);
-//     const json= await response.json();
 
-//     document.querySelector(".Image").style.backgroundImage = `url(${json.url})`;
-//     document.querySelector(".Explanation").innerHTML =`${json.explanation}`;
-//     document.querySelector(".Title").innerHTML=`${json.title}`;
-//     console.log(json.hdurl);
-//     return json;
-// }
-
-// getData("https://api.nasa.gov/planetary/apod?api_key=3CjUmyyo8nvBBfFL3cSR93XEBPSPzmXkeLHOB9EH");
 
 function getRandomDate(){
     let start=new Date(1995, 5, 16);
